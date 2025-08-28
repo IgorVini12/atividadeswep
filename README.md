@@ -1,2 +1,2 @@
-# atividadeswep
-atividades da aula de programação we
+# atividadesweb
+atividades da aula de programação web
