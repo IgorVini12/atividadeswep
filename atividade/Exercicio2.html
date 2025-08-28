@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio aula 02</title>
+</head>
+<body>
+  <h1>Exercício da Aula 02</h1>
+  <p>Criar um formulário como mostrado a seguir:</p>
+  <form>
+    <label>Digite um nickname:</label>
+    <input type="text" name="nickname" placeholder="digite seu nome"><br>
+    <label>Digite sua senha:</label>
+    <input type="password" name="senha"><br>
+    <label>Digite seu e-mail:</label>
+    <input type="email" name="email"><br><br>
+
+    <div>
+      <span>Sexo:</span><br>
+      <input type="radio" name="sexo" value="masculino" checked>
+      <label>masculino</label><br>
+      <input type="radio" name="sexo" value="feminino">
+      <label>feminino</label><br>
+      <input type="radio" name="sexo" value="prefiro não divulgar">
+      <label>prefiro não divulgar</label>
+    </div>
+
+    <div>
+      <span>Preferências de lazer:</span><br>
+      <input type="checkbox" name="lazer" value="cinema">
+      <label>cinema</label><br>
+      <input type="checkbox" name="lazer" value="esportes">
+      <label>esportes</label><br>
+      <input type="checkbox" name="lazer" value="festas">
+      <label>festas</label>
+    </div>
+
+    <div>
+      <label>Selecione sua cidade:</label>
+      <select name="cidade">
+        <option value="São Paulo">São Paulo</option>
+        <option value="Rio de Janeiro">Rio de Janeiro</option>
+        <option value="Minas Gerais">Minas Gerais</option>
+        <option value="Bahia">Bahia</option>
+      </select>
+    </div>
+
+    <div>
+      <label>Finalmente, diga sua opinião sobre nosso site:</label><br>
+      <textarea name="feedback" rows="4" cols="40"></textarea>
+    </div>
+
+    <button type="submit">Submeter</button>
+  </form>
+</body>
+</html>

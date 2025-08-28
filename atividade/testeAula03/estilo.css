@@ -1,0 +1,16 @@
+div{
+    color: rgb(36, 36, 163);
+    font-size: 28px;
+    width: 270px;/*poderia ser whith30%*/
+    height: 100px;
+    background-color: rgb(89, 180, 180);
+    border: 2px rgb(148, 187, 112) solid;
+    /* box da div em baixo */
+    border-radius: 7px;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+
+}
