@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário de Contato</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <form action="#" method="post" class="modelo">
+        <h1>Formulário de Contato <br>
+            <span class="titulo2">Preencha todos os campos. </span>
+        </h1>
+
+        <div>
+            <div class="rotulos">Nome:</div>
+            <input id="nome" type="text" name="nome" placeholder="Nome completo" class="entrada" />
+        </div>
+
+        <div>
+            <div class="rotulos">Email:</div>
+            <input id="email" type="email" name="email" placeholder="E-mail válido" class="entrada" />
+        </div>
+
+        <div>
+            <div class="rotulos">Assunto:</div>
+            <select name="assunto" class="entrada">
+                <option value="">Selecione um assunto</option>
+                <option value="duvidas">Dúvidas sobre o produto</option>
+                <option value="atraso">Atraso na entrega</option>
+                <option value="outro">Outro</option>
+            </select>
+        </div>
+
+        <div>
+            <div class="rotulos">Mensagem:</div>
+            <textarea id="mensagem" name="mensagem" placeholder="Sua mensagem" class="entrada"></textarea>
+        </div>
+
+        <div>
+            <input type="submit" value="Enviar" class="botao" />
+        </div>
+    </form>
+
+</body>
+
+</html>

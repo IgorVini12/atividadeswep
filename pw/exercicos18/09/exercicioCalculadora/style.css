@@ -1,0 +1,12 @@
+body {
+    border: double 22px crimson;
+    text-align: center;
+}
+
+.valor {
+    background-color: rgb(255, 208, 0);
+}
+
+.resultado {
+    background-color: rgb(255, 208, 0);
+}
